@@ -1,0 +1,53 @@
+{
+  "name": "@arshad/gatsby-theme-phoenix",
+  "version": "1.1.8",
+  "author": "arshad <arshad@chummun.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-theme-phoenix",
+    "blog",
+    "portfolio",
+    "podcast"
+  ],
+  "bugs": {
+    "url": "https://github.com/arshad/gatsby-themes/issues"
+  },
+  "homepage": "https://github.com/arshad/gatsby-themes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arshad/gatsby-themes.git",
+    "directory": "themes/gatsby-theme-phoenix"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "dev": "gatsby clean && gatsby develop"
+  },
+  "devDependencies": {
+    "gatsby": "^2.21.11",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "gatsby-plugin-manifest": "2.4.14",
+    "gatsby-plugin-postcss": "2.3.6",
+    "gatsby-plugin-react-helmet": "3.3.6",
+    "gatsby-plugin-robots-txt": "1.5.0",
+    "gatsby-plugin-sitemap": "2.4.7",
+    "gatsby-plugin-web-font-loader": "1.0.4",
+    "gatsby-transformer-sharp": "2.5.7",
+    "postcss-color-function": "4.1.0",
+    "prismjs": "1.17.1",
+    "react-helmet": "6.1.0",
+    "striptags": "3.1.1",
+    "tailwindcss": "1.4.5",
+    "tailwindcss-dark-mode": "1.1.2"
+  }
+}
